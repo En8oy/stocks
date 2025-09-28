@@ -1,0 +1,41 @@
+-- Insert expense categories with keys
+INSERT INTO categories (name, type, icon, color_hex, description) VALUES
+    ('FOOD_DINING', 'expense', '🍽️', '#F59E0B', 'food_dining_key'),
+    ('TRANSPORTATION', 'expense', '🚗', '#3B82F6', 'transportation_key'),
+    ('SHOPPING', 'expense', '🛍️', '#EC4899', 'shopping_key'),
+    ('ENTERTAINMENT', 'expense', '🎬', '#8B5CF6', 'entertainment_key'),
+    ('BILLS_UTILITIES', 'expense', '📄', '#6B7280', 'bills_utilities_key'),
+    ('HEALTHCARE', 'expense', '🏥', '#EF4444', 'healthcare_key'),
+    ('EDUCATION', 'expense', '📚', '#14B8A6', 'education_key'),
+    ('HOME', 'expense', '🏠', '#84CC16', 'home_key'),
+    ('PERSONAL_CARE', 'expense', '💅', '#F97316', 'personal_care_key'),
+    ('GIFTS_DONATIONS', 'expense', '🎁', '#E11D48', 'gifts_donations_key'),
+    ('TRAVEL', 'expense', '✈️', '#06B6D4', 'travel_key'),
+    ('PETS', 'expense', '🐾', '#7C3AED', 'pets_key'),
+    ('INSURANCE', 'expense', '🛡️', '#0EA5E9', 'insurance_key'),
+    ('TAXES', 'expense', '🏛️', '#DC2626', 'taxes_key'),
+    ('SAVINGS_INVESTMENT', 'expense', '💎', '#059669', 'savings_investment_key'),
+    ('DEBT_PAYMENTS', 'expense', '💳', '#991B1B', 'debt_payments_key'),
+    ('FAMILY_KIDS', 'expense', '👨‍👩‍👧‍👦', '#DB2777', 'family_kids_key'),
+    ('SUBSCRIPTIONS', 'expense', '📱', '#4338CA', 'subscriptions_key'),
+    ('GASOLINE', 'expense', '⛽', '#EA580C', 'gasoline_key'),
+    ('COFFEE_SNACKS', 'expense', '☕', '#92400E', 'coffee_snacks_key'),
+    ('OTHER_EXPENSE', 'expense', '📌', '#9CA3AF', 'other_expense_key');
+
+-- Insert income categories with keys
+INSERT INTO categories (name, type, icon, color_hex, description) VALUES
+    ('SALARY', 'income', '💼', '#10B981', 'salary_key'),
+    ('FREELANCE', 'income', '💻', '#06B6D4', 'freelance_key'),
+    ('INVESTMENTS', 'income', '📈', '#6366F1', 'investments_key'),
+    ('BUSINESS', 'income', '🏢', '#8B5CF6', 'business_key'),
+    ('RENTAL', 'income', '🏘️', '#F59E0B', 'rental_key'),
+    ('GIFTS', 'income', '🎁', '#EC4899', 'gifts_key'),
+    ('REFUNDS', 'income', '💸', '#14B8A6', 'refunds_key'),
+    ('COMMISSIONS', 'income', '💵', '#8B5CF6', 'commissions_key'),
+    ('BONUSES', 'income', '🎯', '#059669', 'bonuses_key'),
+    ('ITEM_SALES', 'income', '🏷️', '#DC2626', 'item_sales_key'),
+    ('OCCASIONAL_WORK', 'income', '🔧', '#7C3AED', 'occasional_work_key'),
+    ('LOANS_RECEIVED', 'income', '🤝', '#0891B2', 'loans_received_key'),
+    ('SCHOLARSHIPS', 'income', '🎓', '#65A30D', 'scholarships_key'),
+    ('PENSION', 'income', '👴', '#B91C1C', 'pension_key'),
+    ('OTHER_INCOME', 'income', '💰', '#9CA3AF', 'other_income_key');
